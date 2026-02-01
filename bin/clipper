@@ -1,0 +1,3 @@
+#!/bin/bash
+# Wrapper to run the clip.py script
+python3 "$(dirname "$0")/../scripts/clip.py" "$@"
